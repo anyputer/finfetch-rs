@@ -1,0 +1,16 @@
+[package]
+name = "finfetch-rs"
+version = "0.1.0"
+authors = ["hyarsan", "arkizenty"]
+edition = "2018"
+license = "MIT"
+repository = "https://github.com/hyarsan/finfetch-rs.git"
+readme = "README.md"
+
+[dependencies]
+console = "0.7.2"
+chrono = "0.4.6"
+
+[[bin]]
+name = "finfetch"
+path = "src/main.rs"
